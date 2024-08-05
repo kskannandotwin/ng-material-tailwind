@@ -5,10 +5,12 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatButtonModule } from '@angular/material/button';
+import { ResponsiveDesignComponent } from './responsive-design/responsive-design.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ResponsiveDesignComponent
   ],
   imports: [
     BrowserModule,
